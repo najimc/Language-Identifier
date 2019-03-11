@@ -1,7 +1,5 @@
 # Language Identifier
 
-## Introduction
-
 Identifies the language of a given text and its confidence level using a traning set of 105 different language samples.
 
 Can also be used to identify text of an individual compared to several sample texts of others. Just place the samples in the `languages` folder.

@@ -1,1 +1,1 @@
-﻿Enter sample text here. Larger text has more chances of being identified. Adjust tolerance value to tune results.
+﻿Place sample text here. Larger text has higher chances of being identified. Adjust tolerance level to tune results.
