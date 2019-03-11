@@ -1,5 +1,12 @@
 """
 Identifies the language of a text file.
+
+Run this to identify language
+python identify_language.py [-h] [-t TOL] [-f FILE]
+
+version 14.3
+
+- Najim Islam
 """
 
 import argparse
