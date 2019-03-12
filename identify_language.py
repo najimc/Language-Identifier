@@ -9,7 +9,7 @@ version 14.3
 - Najim Islam
 """
 
-import argparse
+from argparse import ArgumentParser
 from collections import defaultdict
 from math import sqrt
 from operator import itemgetter
@@ -27,7 +27,7 @@ class Options:
     """Parse and contain command-line arguments."""
 
     def __init__(self):
-        parser = argparse.ArgumentParser(
+        parser = ArgumentParser(
             description="Identifies the language of a text file")
         parser.add_argument('-t', '--tol', type=int, default=3,
                             help='Tolerance to tune results')
