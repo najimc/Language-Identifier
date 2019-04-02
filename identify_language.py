@@ -4,7 +4,7 @@ Identifies the language of a text file.
 Run this to identify language
 python identify_language.py [-h] [-t TOL] [-f FILE]
 
-version 14.3
+version 15.4
 
 - Najim Islam
 """
@@ -84,7 +84,7 @@ def count_n_grams(document, tolerance):
     of normalized n-grams within the document."""
 
     n_grams = defaultdict(float)
-    for i in range(len(document)-tolerance-1):
+    for i in range(len(document)-tolerance+1):
         n_grams[document[i:i+int(tolerance)]] += 1
     return normalize(n_grams)
 
