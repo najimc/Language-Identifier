@@ -26,4 +26,4 @@ python identify_language.py [-h] [-t TOL] [-f FILE]
 
 ## Author
 
-- [Najim Islam](https://github.com/najimc)
+- [Najim](https://github.com/najimc)
