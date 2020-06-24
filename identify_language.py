@@ -6,7 +6,7 @@ python identify_language.py [-h] [-t TOL] [-f FILE]
 
 version 15.4
 
-- Najim Islam
+- Najim
 """
 
 from argparse import ArgumentParser
